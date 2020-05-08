@@ -1,0 +1,36 @@
+/* Háttér */
+body {
+  background-image: url('../IMG/Hatter.jpg');
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  overflow: hidden; /* Overflow elrejtése */
+  background-color: rgba(20,20,20,0.5); /* Háttérszín */
+}
+
+/* Navbar gombok */
+.navbar a {
+  /*display: block;*/
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  -webkit-text-stroke: 0.1px black;
+}
+
+.navbar a.right {
+  float: right;
+}
+
+.navbar a.left {
+  float: left;
+}
+
+/* Egér rámutatás */
+.navbar a.right:hover {
+  background-color: rgb(200,200,200);
+  color: black;
+}
