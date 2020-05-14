@@ -17,6 +17,7 @@ body .container {
   transform: translate(-50%, -50%);
   text-align: center;
   background-color: rgba(20,20,20,0.5);
+  min-width: 350px;
 }
 
 body h1, body h2 {
