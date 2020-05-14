@@ -1,39 +1,10 @@
 /* Háttér */
 body {
-  background: url("../hatterek/1.0.Fooldal.jpg") no-repeat center center fixed;
+  background: url("../IMG/hatterek/1.0.Fooldal.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-nav {
-  overflow: hidden; /* Overflow elrejtése */
-  background-color: rgba(20,20,20,0.5); /* Háttérszín */
-}
-
-/* Navbar gombok */
-nav a {
-  /*display: block;*/
-  color: white;
-  text-align: center;
-  padding: 14px 20px;
-  text-decoration: none;
-  -webkit-text-stroke: 0.1px black;
-}
-
-nav a.right {
-  float: right;
-}
-
-nav a.left {
-  float: left;
-}
-
-/* Egér rámutatás */
-nav a.right:hover {
-  background-color: rgb(200,200,200);
-  color: black;
 }
 
 body .container {
@@ -48,7 +19,7 @@ body .container {
   background-color: rgba(20,20,20,0.5);
 }
 
-body h1, body h2, h2:before, h2:after {
+body h1, body h2 {
   color: rgba(255,255,255,0.8);
   -webkit-text-stroke: 0.2px black;
 }

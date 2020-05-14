@@ -1,0 +1,33 @@
+nav {
+  overflow: hidden; /* Overflow elrejtése */
+  background-color: rgba(20,20,20,0.5); /* Háttérszín */
+}
+
+/* Navbar gombok */
+nav a {
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  -webkit-text-stroke: 0.1px black;
+}
+
+@media (max-aspect-ratio: 16/10) {
+  nav a {
+    font-size: 3vw;
+  }
+}
+
+nav a.right {
+  float: right;
+}
+
+nav a.left {
+  float: left;
+}
+
+/* Egér rámutatás */
+nav a.right:hover {
+  background-color: rgb(200,200,200);
+  color: black;
+}
