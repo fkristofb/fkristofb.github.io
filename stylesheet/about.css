@@ -21,11 +21,11 @@ body .container {
 body .sor {
   display: block;
   text-align: center;
+  width: 100%;
 }
 
 body .oszlop {
   width: 100%;
-  margin: 0 auto;
   position: relative;
 }
 
@@ -37,6 +37,7 @@ body .oszlop img {
 }
 
 body .oszlop p {
+  width: 50%;
   margin: 1rem 25%;
   text-align: left;
 }
@@ -45,11 +46,10 @@ body .oszlop p {
   body .container {
     margin: 0;
     position: absolute;
-    top: 50%;
     left: 50%;
     width: 80%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
   }
 
   body .sor {
@@ -64,16 +64,18 @@ body .oszlop p {
     font-size: 2vw;
     width: 33%;
     overflow: auto;
+    overflow-x: hidden;
   }
 
   body .oszlop p {
-    margin: 1rem;
+    margin: 0;
+    width: 100%;
   }
 
   body .oszlop img {
     position: relative;
     align-self: center;
     vertical-align: middle;
-    width: 80%;
+    width: 100%;
   }
 }
